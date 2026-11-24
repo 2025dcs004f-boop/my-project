@@ -1,0 +1,17 @@
+{
+    "name": "usjm/transport-management-system",
+    "description": "Transport Management System built with Yii 2",
+    "type": "project",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.49"
+    },
+    "config": {
+        "allow-plugins": { "yiisoft/yii2-composer": true },
+        "process-timeout": 1800,
+        "fxp-asset": { "enabled": false }
+    },
+    "repositories": [
+        { "type": "composer", "url": "https://asset-packagist.org" }
+    ]
+}
